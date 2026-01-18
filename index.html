@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="تواصل مع سامي العتيبي عبر جميع منصات التواصل الاجتماعي">
+    <meta name="keywords" content="سامي العتيبي, روابط التواصل, social media">
+    <meta name="author" content="سامي العتيبي">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="سامي العتيبي - حساباتي على وسائل التواصل">
+    <meta property="og:description" content="تابعني على جميع منصات التواصل الاجتماعي">
+    <meta property="og:type" content="website">
+    
+    <title>سامي العتيبي - حساباتي على وسائل التواصل</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E👤%3C/text%3E%3C/svg%3E">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 30px;
+            padding: 50px 40px;
+            max-width: 500px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            animation: slideUp 0.6s ease;
+        }
+
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .profile {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 5px solid #667eea;
+            margin-bottom: 20px;
+            object-fit: cover;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .profile-img:hover {
+            transform: scale(1.05);
+        }
+
+        h1 {
+            color: #333;
+            font-size: 28px;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .bio {
+            color: #666;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .social-links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .social-btn {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 18px 25px;
+            background: white;
+            border: 2px solid #e0e0e0;
+            border-radius: 15px;
+            text-decoration: none;
+            color: #333;
+            font-size: 16px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .social-btn:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+            transition: left 0.5s;
+        }
+
+        .social-btn:hover:before {
+            left: 100%;
+        }
+
+        .social-btn:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+            border-color: #667eea;
+        }
+
+        .social-btn:active {
+            transform: translateY(-2px);
+        }
+
+        .social-icon {
+            width: 30px;
+            height: 30px;
+            font-size: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .instagram { color: #E4405F; }
+        .twitter { color: #1DA1F2; }
+        .facebook { color: #4267B2; }
+        .youtube { color: #FF0000; }
+        .linkedin { color: #0077B5; }
+        .github { color: #333; }
+        .tiktok { color: #000; }
+        .snapchat { color: #FFFC00; text-shadow: 0 0 2px #000; }
+
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #999;
+            font-size: 14px;
+        }
+
+        /* Loading Animation */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .social-btn {
+            animation: fadeIn 0.5s ease forwards;
+            opacity: 0;
+        }
+
+        .social-btn:nth-child(1) { animation-delay: 0.1s; }
+        .social-btn:nth-child(2) { animation-delay: 0.2s; }
+        .social-btn:nth-child(3) { animation-delay: 0.3s; }
+        .social-btn:nth-child(4) { animation-delay: 0.4s; }
+        .social-btn:nth-child(5) { animation-delay: 0.5s; }
+        .social-btn:nth-child(6) { animation-delay: 0.6s; }
+        .social-btn:nth-child(7) { animation-delay: 0.7s; }
+        .social-btn:nth-child(8) { animation-delay: 0.8s; }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 40px 25px;
+            }
+            
+            h1 {
+                font-size: 24px;
+            }
+
+            .bio {
+                font-size: 14px;
+            }
+
+            .social-btn {
+                padding: 15px 20px;
+                font-size: 15px;
+            }
+        }
+
+        /* Print Styles */
+        @media print {
+            body {
+                background: white;
+            }
+            .container {
+                box-shadow: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Crect fill='%23667eea' width='120' height='120'/%3E%3Ctext x='50%25' y='50%25' font-size='60' fill='white' text-anchor='middle' dy='.3em'%3E👤%3C/text%3E%3C/svg%3E" alt="صورة الملف الشخصي - سامي العتيبي" class="profile-img">
+            <h1>سامي العتيبي</h1>
+            <p class="bio">مرحباً بك! تابعني على حساباتي في وسائل التواصل الاجتماعي</p>
+        </div>
+
+        <div class="social-links">
+            <a href="https://instagram.com/ssmal511" class="social-btn" target="_blank" rel="noopener noreferrer" aria-label="تابعني على Instagram">
+                <span class="social-icon instagram" role="img" aria-label="Instagram">📷</span>
+                <span>Instagram</span>
+            </a>
+
+            <a href="https://twitter.com/ssmal511" class="social-btn" target="_blank" rel="noopener noreferrer" aria-label="تابعني على Twitter">
+                <span class="social-icon twitter" role="img" aria-label="Twitter">🐦</span>
+                <span>Twitter / X</span>
+            </a>
+
+            <a href="https://facebook.com/ssmal511" class="social-btn" target="_blank" rel="noopener noreferrer" aria-label="تابعني على Facebook">
+                <span class="social-icon facebook" role="img" aria-label="Facebook">📘</span>
+                <span>Facebook</span>
+            </a>
+
+            <a href="https://youtube.com/@ssmal511" class="social-btn" target="_blank" rel="noopener noreferrer" aria-label="تابعني على YouTube">
+                <span class="social-icon youtube" role="img" aria-label="YouTube">▶️</span>
+                <span>YouTube</span>
+            </a>
+
+            <a href="https://linkedin.com/in/ssmal511" class="social-btn" target="_blank" rel="noopener noreferrer" aria-label="تابعني على LinkedIn">
+                <span class="social-icon linkedin" role="img" aria-label="LinkedIn">💼</span>
+                <span>LinkedIn</span>
+            </a>
+
+            <a href="https://github.com/ssmal511" class="social-btn" target="_blank" rel="noopener noreferrer" aria-label="تابعني على GitHub">
+                <span class="social-icon github" role="img" aria-label="GitHub">💻</span>
+                <span>GitHub</span>
+            </a>
+
+            <a href="https://tiktok.com/@ssmal511" class="social-btn" target="_blank" rel="noopener noreferrer" aria-label="تابعني على TikTok">
+                <span class="social-icon tiktok" role="img" aria-label="TikTok">🎵</span>
+                <span>TikTok</span>
+            </a>
+
+            <a href="https://snapchat.com/add/ssmal511" class="social-btn" target="_blank" rel="noopener noreferrer" aria-label="أضفني على Snapchat">
+                <span class="social-icon snapchat" role="img" aria-label="Snapchat">👻</span>
+                <span>Snapchat</span>
+            </a>
+        </div>
+
+        <div class="footer">
+            <p>© 2024 سامي العتيبي - جميع الحقوق محفوظة</p>
+        </div>
+    </div>
+</body>
+      </html>
